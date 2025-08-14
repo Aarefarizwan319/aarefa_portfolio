@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarefa Rizwan — Front-End Developer</title>
+  <meta name="description" content="Portfolio of Aarefa Rizwan — Front-End Developer. Clean, modern, responsive websites with HTML, CSS, JavaScript, Python, and Canvas." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Theme Toggle & Skip Link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">AR</div>
+      <div class="brand-text">
+        <h1 class="site-title">Aarefa Rizwan</h1>
+        <p class="site-subtitle">Front-End Developer</p>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">🌓</button>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero container" id="hero">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <h2 class="gradient-text">Hi, I'm Aarefa — I build clean, modern websites.</h2>
+          <p class="lead">
+            I am passionate about creating clean, modern websites that highlight personal skills and projects.
+            I aim to help individuals present their unique stories effectively online.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="Aarefa_Rizwan_FrontEndDeveloper.pdf" download>📄 Download Resume</a>
+          </div>
+          <div class="socials">
+            <hr>
+            <a class="chip" href="https://github.com/Aarefarizwan319/hogwards-quiz" aria-label="GitHub (add your link)">GitHub</a><hr>
+            <a class="chip" href="https://codepen.io/Aarefa-zahra/full/jEPogbv" aria-label="CodePen (add your link)">CodePen</a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <figure class="avatar-frame" aria-label="Profile picture placeholder">
+            <img src="me.jpg" alt="Profile placeholder" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <h3 class="section-title">About Me</h3>
+      <p class="reveal">
+        I am a passionate front-end developer who loves blending creativity with clean, efficient code.
+        Skilled in HTML, CSS, JavaScript, Python, and Canvas, I enjoys building interactive, responsive designs.
+        I thrives on solving problems, learning new technologies, and helping others bring their digital visions to life.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+      <h3 class="section-title">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-skill="HTML" data-level="95">
+          <span>HTML</span>
+          <div class="bar"><div class="bar-fill" style="--pct:95%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="CSS" data-level="92">
+          <span>CSS</span>
+          <div class="bar"><div class="bar-fill" style="--pct:92%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="JavaScript" data-level="88">
+          <span>JavaScript</span>
+          <div class="bar"><div class="bar-fill" style="--pct:88%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="Python" data-level="55">
+          <span>Python</span>
+          <div class="bar"><div class="bar-fill" style="--pct:55%"></div></div>
+        </div>
+        <div class="skill-card reveal" data-skill="Canvas" data-level="60">
+          <span>Canvas</span>
+          <div class="bar"><div class="bar-fill" style="--pct:60%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container" id="projects">
+      <h3 class="section-title">Projects</h3>
+      <div class="projects-grid">
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h4>Creative Studio</h4>
+            <p>Create amazing art powerful drawing tools</p>
+            <div class="card-actions">
+              <a href="https://codepen.io/Aarefa-zahra/full/LEpNoZQ" class="btn small">Live</a>
+              <a href="https://codepen.io/Aarefa-zahra/pen/LEpNoZQ" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h4>Blooming Nightscape</h4>
+            <p>An animated blooming flower built in HTML/CSS (with minimal JS).</p>
+            <div class="card-actions">
+              <a href="https://codepen.io/Aarefa-zahra/full/zxxgKQm" class="btn small">Live</a>
+              <a href="https://codepen.io/Aarefa-zahra/pen/zxxgKQm" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h4>GameHub</h4>
+            <p>Play exciting games in GameHub(for desktop only).</p>
+            <div class="card-actions">
+              <a href="https://codepen.io/Aarefa-zahra/full/jEPogbv" class="btn small">Live</a>
+              <a href="https://codepen.io/Aarefa-zahra/pen/jEPogbv" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-media gradient"></div>
+          <div class="card-body">
+            <h4>Crossy road game</h4>
+            <p>It is a 3D endless cross-the-road game built with Three.js.</p>
+            <div class="card-actions">
+              <a href="https://codepen.io/Aarefa-zahra/full/JodzgoE" class="btn small">Live</a>
+              <a href="https://codepen.io/Aarefa-zahra/pen/JodzgoE" class="btn small outline">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container" id="contact">
+      <h3 class="section-title">Contact</h3>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="your@email.com" required />
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Say hello..." required></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <aside class="contact-info">
+          <ul>
+            <li><strong>Email:</strong> <span title="Replace with your real email">Aarefarizwan319@gmail.com</span></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Aarefarizwan319/hogwards-quiz" title="Add your GitHub link">Aarefarizwan319.githubio</a></li>
+            <li><strong>CodePen:</strong> <a href="https://codepen.io/Aarefa-zahra/full/jEPogbv" title="Add your CodePen link">Aarefa-zahra.codepen.io</a></li>
+          </ul>
+      
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Aarefa Rizwan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
